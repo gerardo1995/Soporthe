@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Pacifico;
+    src: url(../fonts/Pacifico/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lobster;
+    src: url(../fonts/Lobster/Lobster-Regular.ttf);
+}
+
+@font-face {
+    font-family: Anton;
+    src: url(../fonts/Anton/Anton-Regular.ttf);
+}
+@font-face {
+    font-family: Tillium Web;
+    src: url(../fonts/Tillium_Web/Tillium_Web-Regular.ttf);
+}
+table {
+    border-collapse: collapse;
+    border: 2px solid #DCDCDC;
+    width: 100%;
+}
+th {
+    border: 2px  solid   #d3d3d3;
+    min-height: 50px;
+    text-align: center;
+    padding:10px;
+    background-color: #B0E0E6;
+}
+td{
+    border: 2px solid #d3d3d3;
+    text-align: center;
+    min-height: 50px;
+    padding: 5px;
+}
+tr:nth-child(even) {background-color: #F0FFFF;}
+tr:nth-child(odd) {background-color: #FFFFFF;}
+
+#table-sm{
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  font-size: 18px;
+}
+#table-md{
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
+  font-size: 18px;
+}
+#table-lg{
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 95%;
+  font-size: 14px;
+}
+
+
+
+

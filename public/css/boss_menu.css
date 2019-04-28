@@ -1,0 +1,113 @@
+.form-container{
+	border-right: 2px solid #008080;
+	height: 100%;
+	width: 350px;
+	margin-left: 15px;
+	margin-top: 0px;
+	background-color: #a0dade;
+	color: black;
+	border-radius: 0px 0px 0px 10px;
+}
+.row-header{
+	height: 5%;
+	width: 100%;
+	margin-left: 0px;
+	border-bottom: 2px solid #008080;
+	background-color: #008080;
+	color: white;
+}
+.header{
+	 margin-left: 20px;
+	 margin-top: 5px;
+}
+body{
+	background-image: none;
+	padding-bottom: 200px;
+}
+.form-container input {
+  clear: both;
+  width: 60%;
+  	margin-left: 10px;
+  	border-radius: 8px;
+
+}
+.form-container button {
+	float: right;
+  	margin-right: 70px;
+  	border-color: #008080;
+}
+.form-container fieldset {
+  	margin-left: 10px;
+
+}
+.form-container legend {
+	text-align: center;
+}
+.form-container label{
+	margin-left: 10px;
+}
+.main{
+	margin: 40px;
+	background-color: #F0FFFF;
+	border: 2px solid #008080;
+	border-radius: 10px;
+	height: 600px;
+	overflow: unset;
+}
+.submit{
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf));
+	background:-moz-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:-webkit-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:-o-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:-ms-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf',GradientType=0);
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.submit:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));
+	background:-moz-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-webkit-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-o-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-ms-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed',GradientType=0);
+	background-color:#dfdfdf;
+}
+.submit:active {
+	position:relative;
+	top:1px;
+}
+
+.btn-pdf{
+	background-image: url('../images/pdf.png');
+  	background-size: 90%;
+  	background-repeat: no-repeat;
+  	background-position: center;
+ 	width: 50px;
+  	height: 50px;
+}
+.btn-pdf:active{
+  	background-size: 80%;
+  	border: 1px solid grey;
+}
+.btn-pdf:hover{
+  	background-size: 85%;
+  	border: 1px solid grey;
+}

@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Pacifico;
+    src: url(../fonts/Pacifico/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lobster;
+    src: url(../fonts/Lobster/Lobster-Regular.ttf);
+}
+
+@font-face {
+    font-family: Anton;
+    src: url(../fonts/Anton/Anton-Regular.ttf);
+}
+@font-face {
+    font-family: Tillium Web;
+    src: url(../fonts/Tillium_Web/Tillium_Web-Regular.ttf);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5F9EA0;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #008080;
+    color: white;
+    text-decoration: none;
+}
+.active {
+    background-color: #008080;
+
+}
