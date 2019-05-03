@@ -43,5 +43,9 @@ class TaskMessage extends Model
 		return $this->belongsTo(\App\Task::class);
 	}
 
-	
+	public function user()
+	{
+		return $this->belongsTo(\App\User::class);
+	}
+    
 }
