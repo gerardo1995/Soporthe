@@ -12,6 +12,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use App\Department;
 use Laravel\Passport\HasApiTokens;
+
 /**
  * Class User
  *
@@ -34,6 +35,7 @@ use Laravel\Passport\HasApiTokens;
  *
  * @package App
  */
+
 class User extends Authenticatable
 {
 	use Notifiable;
