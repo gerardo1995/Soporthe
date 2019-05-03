@@ -1,9 +1,5 @@
 <?php
 
-/**
- * Created by Reliese Model.
- * Date: Thu, 25 march 2018 16:41:38 +0000.
- */
 
 namespace App;
 
