@@ -105,8 +105,5 @@ class User extends Authenticatable
 		return $this->hasMany(\App\Task::class);
 	}
 
-	public function task_types()
-	{
-		return $this->belongsToMany(\App\TaskType::class, 'users_x_task_types');
-	}
+	
 }
