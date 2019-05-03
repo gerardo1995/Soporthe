@@ -1,9 +1,5 @@
 <?php
 
-/**
- * Created by Reliese Model.
- * Date: Thu, 08 Nov 2018 16:41:58 +0000.
- */
 
 namespace App;
 use Illuminate\Notifications\Notifiable;

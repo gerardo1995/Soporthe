@@ -1,8 +1,5 @@
 <?php
-/**
-* Created by Reliese Model.
-* Date: Thu, 08 Nov 2018 16:41:24 +0000.
-*/
+
 namespace App;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
