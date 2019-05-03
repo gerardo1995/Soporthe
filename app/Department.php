@@ -2,7 +2,7 @@
 
 /**
  * Created by Reliese Model.
- * Date: Thu, 08 Nov 2018 16:41:38 +0000.
+ * Date: Thu, 25 march 2018 16:41:38 +0000.
  */
 
 namespace App;
@@ -23,6 +23,7 @@ use Illuminate\Database\Eloquent\Model;
  *
  * @package App
  */
+
 class Department extends Model
 {
 
