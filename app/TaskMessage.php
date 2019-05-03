@@ -23,6 +23,7 @@ use Illuminate\Database\Eloquent\Model;
  *
  * @package App
  */
+
 class TaskMessage extends Model
 {
 
@@ -46,4 +47,5 @@ class TaskMessage extends Model
 	{
 		return $this->belongsTo(\App\User::class);
 	}
+    
 }

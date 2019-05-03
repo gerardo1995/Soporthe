@@ -2,7 +2,7 @@
 
 /**
  * Created by Reliese Model.
- * Date: Thu, 08 Nov 2018 16:41:31 +0000.
+ * Date: Thu, 25 March 2018 16:41:31 +0000.
  */
 
 namespace App;
@@ -19,6 +19,7 @@ use Illuminate\Database\Eloquent\Model;
  *
  * @package App
  */
+
 class Role extends Model
 {
 	public $incrementing = false;

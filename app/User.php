@@ -12,6 +12,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use App\Department;
 use Laravel\Passport\HasApiTokens;
+
 /**
  * Class User
  *
@@ -34,6 +35,7 @@ use Laravel\Passport\HasApiTokens;
  *
  * @package App
  */
+
 class User extends Authenticatable
 {
 	use Notifiable;
@@ -103,8 +105,9 @@ class User extends Authenticatable
 		return $this->hasMany(\App\Task::class);
 	}
 
-	public function task_types()
+    public function task_types()
 	{
 		return $this->belongsToMany(\App\TaskType::class, 'users_x_task_types');
 	}
+	
 }
